@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Khfagy\'s Controller</string>
+    <string name="this_button_moves_the_car_forward">This button moves the car forward</string>
+    <string name="this_button_moves_the_car_right">This button moves the car right</string>
+    <string name="this_button_moves_the_car_left">This button moves the car left</string>
+    <string name="this_button_moves_the_car_backward">This button moves the car backward</string>
+    <string name="this_button_stops_the_car">This button stops the car</string>
+    <string name="this_button_stops_the_car_and_makes_it_flash">This button stops the car and makes it flash</string>
+    <string name="this_button_disconnects_the_device">This button disconnects the device</string>
+    <string name="recursive_creed">Recursive Creed</string>
+    <string name="recursive_creed_logo">Recursive Creed logo</string>
+
+</resources>

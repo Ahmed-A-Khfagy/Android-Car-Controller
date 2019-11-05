@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.recursivecreed.carcontroller21">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".AvoidActivity"
+            android:screenOrientation="portrait"
+            android:label="Avoid"></activity>
+        <activity android:name=".TraceActivity"
+            android:screenOrientation="portrait"
+            android:label="Trace"/>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="Settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GyroControllerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/NoTitleScreen" />
+        <activity
+            android:name=".ArmControllerActivity"
+            android:label="Arm Control"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VoiceControllerActivity"
+            android:label="Voice control"
+            android:screenOrientation="portrait" />
+        <activity android:name=".LetItMoveAloneActivity" />
+        <activity
+            android:name=".DrawTrackActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/NoTitleScreen" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ArrowControlActivity"
+            android:label="Arrow control"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MainActivity" />
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.hardware.bluetooth" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+</manifest>
